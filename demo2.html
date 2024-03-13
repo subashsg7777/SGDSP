@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<style type="text/css">
+  nav h2{
+    display: inline-block;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
+  .firstsec{
+    position: relative;
+  }
+
+  .secondimg{
+    margin-left: 100px;
+    display: inline-block;
+  }
+
+  .over{
+    position: absolute;
+    bottom: 10px;
+  }
+
+ .over,.overcopy{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 40px;
+  }
+
+  .overcopy{
+    display: inline-block;
+    float: right;
+    text-align: left;
+    position: absolute;
+    left: 850px;
+  }
+
+  .nest{
+    display: inline-block;
+    float: right;
+    background: yellow;
+    width: 500px;
+  }
+
+  .nest #heading1,.thirdsec #heading2{
+    text-align:center ;
+    font-size: 40px;
+  }
+
+  .nest #subtitle{
+    text-align: center;
+  }
+
+  .subs{
+    color: grey;
+  }
+
+  .thirdsec{
+    display: inline-block;
+    background: yellow;
+  }
+
+  .sider{
+    display: inline-block;
+    float: right;
+  }
+</style>
+</head>
+
+<body>
+  <nav>
+  <h2>Tasty Burgers</h2>
+  <br>
+  <ul>
+    <li>About</li>
+    <li>menu</li>
+    <li>contact</li>
+  </ul>
+</nav>
+<div class="firstsec">
+  <img src="hamburger.jpg" alt="there is a problem in loading a img" />
+  <p class="over">Le Catering</p>
+</div>
+
+<div class="secondsec">
+  <img src="secondimg.jpg" class="secondimg" alt="error!"/>
+  <div class="nest">
+    <p id="heading1">About Catering</p>
+    <p id="subtitle">Tradition since 1889</p>
+    <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients</p>
+    <br>
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+<hr>
+<div class="thirdsec">
+  <p id="heading2">Our Menu</p>
+  <h3>Bread Basket</h3>
+  <p class="subs">Assortment of fresh baked fruit breads and muffins 5.50</p>
+  <h3>Honey Almond Granola with Fruits</h3>
+  <p class="subs">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+  <h3>Belgian Waffle</h3>
+  <p class="subs">Vanilla flavored batter with malted flour 7.50</p>
+  <h3>Scrambled eggs</h3>
+  <p class="subs">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+  <h3>Blueberry Pancakes</h3>
+  <p class="subs">With syrup, butter and lots of berries 8.50</p>
+  <img class="sider" src="https://www.w3schools.com/w3images/tablesetting.jpg">
+</div>
+</body>
+</html>

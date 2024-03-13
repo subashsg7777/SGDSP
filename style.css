@@ -1,0 +1,35 @@
+
+body{
+background-color: red;
+}
+header{
+background-color: blue;	
+padding: 0px 0px ;
+}
+.nav{
+	background : pink;
+	background-color: #0007ff;
+}
+.nav a{
+	padding : 14px 16px;
+	text-align: center;
+	text-decoration:none ;
+	font-size:1.5em;
+	color:#eb00ff;
+	display:block
+	float : left;
+}
+
+.nav a:hover{
+	color: yellow;
+}
+form{
+	text-align: center;
+	padding: 20px;
+}
+
+.heading{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
